@@ -1,0 +1,139 @@
+{
+	"id": "",
+	"specVersion": "",
+	"version": "",
+	"updated": "",
+	"companyName": "",
+	"companyIds": [
+		"URN DataType"
+	              ],
+	"productDescription": "",
+	"productIds": [
+		"ProductId DataType"
+				  ],
+	"productCategoryCps": "",
+	"created": "",
+	"comment": "",
+	"pcf": {
+		"declaredUnit":"",
+		"unitaryProductAmount": "",
+		"fossilGhgEmissions": "",
+		"biogenicEmissions": {
+			"landUseEmissions": "",
+			"landUseChangeEmissions": "",
+			"otherEmissions": ""
+                    		 },
+		"biogenicCarbonContent": "",
+		"reportingPeriodStart": "",
+		"reportingPeriodEnd": "",
+		"geographyCountrySubdivision": "",
+		"geographyCountry": "",
+		"geographyRegionOrSubregion": "",
+		"primaryDataShare": "",
+		"emissionsFactorSources":[ 
+			{
+				"name":"",
+				"version":""
+    		}
+
+                             ], 
+		"boundaryProcessDescription": "",
+		"crossSectoralStandardsUsed": [
+		"GHG Protocol Product standard",
+		"ISO Standard 14067",
+		"ISO Standard 14044"
+	
+	                              ],
+		"productOrSectorSpecificRules": [ 
+			{
+				"operator": "",
+				"ruleNames": "",
+				"otherOperatorName": ""
+			}
+									],
+		"allocationRulesDescription": ""
+			},
+			
+         "extenstions":
+        [
+            {
+                "specVersion": "1.0.0",
+                "dataSchema": "https://pathfinder.dev/data-schemas/1.0.0/rmi-steel.json",
+                "documentation":"https://pathfinder.dev/data-schemas/1.0.0/rmi-steel/documentation/",
+                "data": 
+                    {
+                        "processGroup":
+                            [
+                                {
+                                    "processCompanyName":"Acme",
+                                    "processCompanyIds":"1",
+                                    "processStep":
+                                        [
+                                            {
+                                                "siteName":"A",
+                                                "siteIds":"",
+                                                "processName":["pelletPlant","briquetting","casting"],
+                                                "processesGhgEmissions":"20",
+												"processPrimaryDataShare":"",
+                                                "exportProducts":[],
+                                                "exportGhgEmissions":"",
+                                                "recycledContent":
+                                                    [
+                                                        {
+                                                            "recycledEmissions":"",
+                                                            "recycledPercentage":"",
+                                                            "recylceName":"",
+                                                            "recycleDescription":""
+                                                        }
+                                                    ],
+                                                "credits":
+                                                    [
+                                                        {
+                                                            "creditEmissions":"",
+                                                            "creditName":"",
+                                                            "creditDescription":""
+                                                        }
+                                                    ]
+                                             }
+											 
+                                        ]
+                                },
+								{
+                                    "processCompanyName":"",
+                                    "processCompanyIds":"",
+                                    "processStep":
+                                        [
+                                            {
+                                                "siteName":"",
+                                                "siteIds":"",
+                                                "processName":["coal mining"],
+                                                "processesGhgEmissions":"10",
+												"processPrimaryDataShare":"",
+                                                "exportProducts":[],
+                                                "exportGhgEmissions":"",
+                                                "recycledContent":
+                                                    [
+                                                        {
+                                                            "recycledEmissions":"",
+                                                            "recycledPercentage":"",
+                                                            "recylceName":"",
+                                                            "recycleDescription":""
+                                                        }
+                                                    ],
+                                                "credits":
+                                                    [
+                                                        {
+                                                            "creditEmissions":"",
+                                                            "creditName":"",
+                                                            "creditDescription":""
+                                                        }
+                                                    ]
+                                             }
+											 
+                                        ]
+                                }
+                            ]   
+                        }
+            }
+        ]
+}
