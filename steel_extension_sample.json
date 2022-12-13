@@ -11,18 +11,20 @@
   "productIds": [
     "ProductId DataType"
   ],
-  "productCategoryCps": "",
-  "created": "",
-  "comment": "",
-  "pcf": {
-    "declaredUnit": "",
+"productCategoryCps": "",
+"created": "",
+"comment": "",
+"pcf": 
+  {
+    "declaredUnit":"",
     "unitaryProductAmount": "",
     "fossilGhgEmissions": "",
-    "biogenicEmissions": {
-      "landUseEmissions": "",
-      "landUseChangeEmissions": "",
-      "otherEmissions": ""
-    },
+    "biogenicEmissions": 
+      {
+    	  "landUseEmissions": "",
+    	  "landUseChangeEmissions": "",
+    	  "otherEmissions": ""
+      },
     "biogenicCarbonContent": "",
     "reportingPeriodStart": "",
     "reportingPeriodEnd": "",
@@ -51,24 +53,32 @@
     ],
     "allocationRulesDescription": ""
   },
-  "extenstions": [
+  "extensions": [
     {
       "specVersion": "1.0.0",
       "dataSchema": "https://pathfinder.dev/data-schemas/1.0.0/rmi-steel.json",
       "documentation": "https://pathfinder.dev/data-schemas/1.0.0/rmi-steel/documentation/",
       "data": {
+        "aggregateRecycledContent": [
+          {
+            "aggregateRecyclingEmissions": "",
+            "aggregateRecycledPercentage": "",
+            "aggregateRecylceName": "",
+            "aggregateRecycleDescription": ""
+          }
+        ],
         "processGroup": [
           {
-            "processCompanyName": "Acme",
-            "processCompanyIds": "1",
-            "processStep": [
+            "processCompanyNames": ["Acme"],
+            "processCompanyIds": ["1"],
+            "processSteps": [
               {
                 "siteName": "A",
-                "siteIds": "",
-                "processName": [
-                  "pelletPlant",
-                  "briquetting",
-                  "casting"
+                "siteIds": ["1-a"],
+                "processNames": [
+                  "Pellet-plant",
+                  "Briquetting",
+                  "Casting"
                 ],
                 "processesGhgEmissions": "20",
                 "processPrimaryDataShare": "",
@@ -76,10 +86,10 @@
                 "exportGhgEmissions": "",
                 "recycledContent": [
                   {
-                    "recycledEmissions": "",
-                    "recycledPercentage": "",
-                    "recylceName": "",
-                    "recycleDescription": ""
+                    "recyclingEmissions": "10",
+                    "recycledPercentage": "35",
+                    "recylceName": "Pre-fab",
+                    "recycleDescription": "prefrab steel"
                   }
                 ],
                 "credits": [
@@ -93,14 +103,15 @@
             ]
           },
           {
-            "processCompanyName": "",
-            "processCompanyIds": "",
-            "processStep": [
+            "processCompanyNames": ["CoalCo"],
+            "processCompanyIds": ["2"],
+            "processSteps": 
+            [
               {
                 "siteName": "",
                 "siteIds": "",
-                "processName": [
-                  "coal mining"
+                "processNames": [
+                  "Coal-mining"
                 ],
                 "processesGhgEmissions": "10",
                 "processPrimaryDataShare": "",
@@ -108,7 +119,7 @@
                 "exportGhgEmissions": "",
                 "recycledContent": [
                   {
-                    "recycledEmissions": "",
+                    "recyclingEmissions": "",
                     "recycledPercentage": "",
                     "recylceName": "",
                     "recycleDescription": ""
