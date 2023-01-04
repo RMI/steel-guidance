@@ -11,6 +11,3 @@ Lachlan Wright (lwright@rmi.org)<br>
 Xiyuan Liu (xliu@rmi.org)<br>
 Iris Wu (iwu@rmi.org)<br>
 Sravan Chalasani (schalasani@rmi.org)
-
-### WBCSD A-PACT initiative
-Jean Balsat (balsat@wbcsd.org)
