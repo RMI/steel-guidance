@@ -59,12 +59,13 @@
       "dataSchema": "https://pathfinder.dev/data-schemas/1.0.0/rmi-steel.json",
       "documentation": "https://pathfinder.dev/data-schemas/1.0.0/rmi-steel/documentation/",
       "data": {
-        "aggregateRecycledContent": [
+        "abatementTechnology":"",
+        "recycledContent": [
           {
-            "aggregateRecyclingEmissions": "",
-            "aggregateRecycledPercentage": "",
-            "aggregateRecylceName": "",
-            "aggregateRecycleDescription": ""
+            "recycledPercentage": "",
+            "postConsumerPercentage":"",
+            "recylceName": "",
+            "recycleDescription": ""
           }
         ],
         "processGroup": [
@@ -86,10 +87,10 @@
                 "exportGhgEmissions": "",
                 "recycledContent": [
                   {
-                    "recyclingEmissions": "10",
-                    "recycledPercentage": "35",
-                    "recylceName": "Pre-fab",
-                    "recycleDescription": "prefrab steel"
+                    "recycledPercentage": "",
+                    "postConsumerPercentage":"",
+                    "recylceName": "",
+                    "recycleDescription": ""
                   }
                 ],
                 "credits": [
@@ -117,14 +118,7 @@
                 "processPrimaryDataShare": "",
                 "exportProducts": [],
                 "exportGhgEmissions": "",
-                "recycledContent": [
-                  {
-                    "recyclingEmissions": "",
-                    "recycledPercentage": "",
-                    "recylceName": "",
-                    "recycleDescription": ""
-                  }
-                ],
+                "recycledContent": [],
                 "credits": [
                   {
                     "creditEmissions": "",
