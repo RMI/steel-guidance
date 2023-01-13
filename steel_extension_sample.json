@@ -68,7 +68,7 @@
             "recycleDescription": ""
           }
         ],
-        "processGroup": [
+        "processGroups": [
           {
             "processCompanyNames": ["Acme"],
             "processCompanyIds": ["1"],
