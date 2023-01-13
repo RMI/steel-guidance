@@ -1,0 +1,97 @@
+{
+  "$id": "https://github.com/RMI/steel-guidance/blob/main/steel_extension_sample.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PACT RMI Steel Extension Schema",
+  "description": "A Pathfinder Data Model Extension for sharing information emissions data in steel production.",
+  "$defs": {
+    "recycling": {
+      "type": "object",
+      "properties": {
+        "recycledPercentage": {"type": "number"},
+        "postConsumerPercentage": {"type": "number"},
+        "recycleName": {"type": "string"},
+        "recycleDescription": {"type": "string"}
+      },
+      "required": ["recycledPercentage", "recycleName"]
+    },
+    "credit": {
+      "type": "object",
+      "properties": {
+        "creditEmissions": {"type": "number"},
+        "creditName": {"type": "string"},
+        "creditDescription": {"type": "string"}
+      },
+      "required": ["creditEmissions","creditName"]
+    }, 
+    "processStep": {
+      "type": "object",
+      "properties": {
+        "siteName": {"type": "string"},
+        "siteIds": {"type": "string"},
+        "processNames": {
+          "type": "array",
+          "contains": {"type": "string"},
+          "minContains": 1,
+          "uniqueItems": true
+        },
+        "processGhgEmissions": {"type:": "number"},
+        "processPrimaryDataShare": {"type": "number"},
+        "exportProducts": {
+          "type": "array",
+          "contains":{"type": "string"}
+        },
+        "exportGhgEmissions": {"type": "number"},
+        "recycledContent": {
+          "type":"array",
+          "items": {"$ref": "#/$defs/recycling"}
+        },
+        "credits": {
+          "type":"array",
+          "items": {"$ref": "#/$defs/credit"}
+        }
+      },
+      "required":["processNames","processGhgEmissions","processPrimaryDataShare"]
+    },
+    "processGroup":{
+      "type": "object",
+      "properties": {
+        "processCompanyNames": {
+          "type": "array",
+          "contains":{"type": "string"},
+          "minContains": 1,
+          "uniqueItems": true
+        },
+        "processCompanyIds": {
+          "type": "array",
+          "contains":{"type": "string"},
+          "minContains": 1,
+          "uniqueItems": true
+        },
+        "processSteps": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/processStep"},
+          "minContains": 1,
+          "uniqueItems": true
+        },
+        "required": ["processCompanyNames","processSteps"]
+      }
+    }
+  },
+  "type": "object",
+  "properties": {
+    "abatementTechnology": {
+      "type": "string"
+    },
+    "recycledContent": {
+     "type": "array",
+     "items": {"$ref": "#/$defs/recycling"}
+      },
+    "processGroups": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/processGroup"},
+      "minContains": 1,
+      "uniqueItems": true
+      }
+    },
+  "required": ["abatementTechnology","recycledContent","processGroups"]
+}
