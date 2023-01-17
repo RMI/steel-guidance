@@ -1,0 +1,69 @@
+{
+  "id": "",
+  "specVersion": "2.0.0",
+  "version": "",
+  "created": "",
+  "updated": "",
+  "companyName": "",
+  "companyIds": [
+    "URN DataType"
+  ],
+  "productDescription": "",
+  "productIds": [
+    "ProductId DataType"
+  ],
+"productCategoryCps": "",
+"productNameCompany": "",
+"comment": "",
+"pcf": 
+  {
+    "declaredUnit":"",
+    "unitaryProductAmount": "",
+    "pCfExcludingBiogenic": "",
+    "pCfIncludingBiogenic": "",
+    "fossilGhgEmissions": "",
+    "fossilCarbonContent": "",
+    "biogenicEmissions": 
+      {
+    	  "landUseEmissions": "",
+    	  "landUseChangeEmissions": "",
+    	  "otherEmissions": ""
+      },
+    "biogenicCarbonContent": "",
+    "biogenicCarbonWithdrawal": "",
+    "characterizationFactors": "",
+    "biogenicAccountingMethodology": "",
+    "reportingPeriodStart": "",
+    "reportingPeriodEnd": "",
+    "geographyCountrySubdivision": "",
+    "geographyCountry": "",
+    "geographyRegionOrSubregion": "",
+    "primaryDataShare": "",
+    "emissionsFactorSources": [
+      {
+        "name": "",
+        "version": ""
+      }
+    ],
+    "boundaryProcessDescription": "",
+    "exemptedEmissionsPercent": "",
+    "exemptedEmissionsDescription": "",
+    "packagingEmissionsIncluded": "",
+    "packagingGhgEmissions": "",
+    "crossSectoralStandardsUsed": [
+      "GHG Protocol Product standard",
+      "ISO Standard 14067",
+      "ISO Standard 14044"
+    ],
+    "productOrSectorSpecificRules": [
+      {
+        "operator": "",
+        "ruleNames": "",
+        "otherOperatorName": ""
+      }
+    ],
+    "allocationRulesDescription": "",
+    "uncertaintyAssessmentDescription": "",
+    "dqi": "",
+    "assurance": ""
+  }
