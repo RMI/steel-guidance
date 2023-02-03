@@ -69,7 +69,7 @@
   },
   "extensions": [
     {
-      "specVersion": "1.0.0",
+      "specVersion": "2.0.0",
       "dataSchema": "https://pathfinder.dev/data-schemas/1.0.0/rmi-steel.json",
       "documentation": "https://pathfinder.dev/data-schemas/1.0.0/rmi-steel/documentation/",
       "data": {
