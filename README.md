@@ -80,11 +80,11 @@ A set of RecycledContent values.
 
 As an array of objects, with each object conforming to the JSON representation of RecycledContent.
 
-### 4.3 Data Type ProcessGroups
+### 4.4 Data Type ProcessGroups
 
 Data Process Groups
 
-#### 4.3.1 Properties
+#### 4.4.1 Properties
 
 The properties of a ProcessGroups object are listed in the table below. 
 
@@ -94,19 +94,19 @@ The properties of a ProcessGroups object are listed in the table below.
 | processCompanyIds                   | Array    | M       | An array of the company ids, corresponding<br> to the processCompanyNames                          |
 | processStepsSet:<br>ProcessStepsSet | Array    | M       | An array of processSteps, each containing information<br> about discrete processes in steel production  |
 
-### 4.4 Data Type ProcessGroupsSet
+### 4.5 Data Type ProcessGroupsSet
 
 A set of ProcessGroups values. 
 
-#### 4.4.1 Properties 
+#### 4.5.1 Properties 
 
 As an array of objects, with each object conforming to the JSON representation of ProcessGroups.
 
-### 4.4 Data Type ProcessSteps 
+### 4.6 Data Type ProcessSteps 
 
 
 
-#### 4.4.1 Properties 
+#### 4.6.1 Properties 
 
 The properties of a ProcessSteps object are listed in the table below. 
 
@@ -122,10 +122,10 @@ The properties of a ProcessSteps object are listed in the table below.
 | recycledContentSet:<br>RecycledContentSet | Array    | O       | The recycled content specific to the<br>processNames for a given processSteps object       |
 | creditsSet:<br>CreditsSet                 | Array    | O       | An array of credits corresponding to the discrete<br>processes listed in processNames      |
 
-### Data Type 4.5 ProcessStepsSet
+### Data Type 4.7 ProcessStepsSet
 
 A set of ProcessSteps values. 
 
-#### Data Type 4.5.1 
+#### Data Type 4.7.1 
 
 As an array of objects, with each object conforming to the JSON representation of ProcessSteps.
