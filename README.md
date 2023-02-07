@@ -49,19 +49,19 @@ The data model extension consists of the following:
 2. RecycledContentSet: contains information related to the total recycled content used in steel production. (see [4.3 Data Type: RecycledContentSet]) 
 3. ProcessGroupsSet: contains information related to the companies and steps of the steel production process. (see [4.5 Data Type ProcessGroupsSet]
 
-### 4.1 Data Type: AbatementTechnology 
+### 4.1. Data Type: AbatementTechnology 
 
 AbatementTechnology is the enumeration of abatement technologies used in the steel production process. 
 Valid values are: 
 
-#### 4.1.1 JSON Representation 
+#### 4.1.1. JSON Representation 
 Each AbatementTechnology MUST be encoded as a JSON string.
 
-### 4.2 Data Type: RecycledContent
+### 4.2. Data Type: RecycledContent
 
 RecycledContent refers to the recycled content used in the production of the steel (see [RMI's Steel Emissions Reporting Guidance](https://rmi.org/wp-content/uploads/2022/09/steel_emissions_reporting_guidance.pdf))
 
-#### 4.2.1 Properties
+#### 4.2.1. Properties
 
 The properties of a RecycledContent are listed in the table below. 
 
@@ -72,7 +72,7 @@ The properties of a RecycledContent are listed in the table below.
 | recycleName                        | String   | O       | The name of the recycling process used                                         |
 | recycleDescription                 | String   | O       | A description of the recycling process used                                    |
 
-### 4.3 Data Type: RecycledContentSet
+### 4.3. Data Type: RecycledContentSet
 
 A set of RecycledContent values. 
 
@@ -80,11 +80,11 @@ A set of RecycledContent values.
 
 As an array of objects, with each object conforming to the JSON representation of RecycledContent.
 
-### 4.4 Data Type ProcessGroups
+### 4.4. Data Type ProcessGroups
 
 Data Process Groups
 
-#### 4.4.1 Properties
+#### 4.4.1. Properties
 
 The properties of a ProcessGroups object are listed in the table below. 
 
@@ -94,19 +94,19 @@ The properties of a ProcessGroups object are listed in the table below.
 | processCompanyIds                   | Array    | M       | An array of the company ids, corresponding<br> to the processCompanyNames                          |
 | processStepsSet:<br>ProcessStepsSet | Array    | M       | An array of processSteps, each containing information<br> about discrete processes in steel production  |
 
-### 4.5 Data Type ProcessGroupsSet
+### 4.5. Data Type ProcessGroupsSet
 
 A set of ProcessGroups values. 
 
-#### 4.5.1 Properties 
+#### 4.5.1. Properties 
 
 As an array of objects, with each object conforming to the JSON representation of ProcessGroups.
 
-### 4.6 Data Type ProcessSteps 
+### 4.6. Data Type ProcessSteps 
 
 
 
-#### 4.6.1 Properties 
+#### 4.6.1. Properties 
 
 The properties of a ProcessSteps object are listed in the table below. 
 
@@ -122,35 +122,35 @@ The properties of a ProcessSteps object are listed in the table below.
 | recycledContentSet:<br>RecycledContentSet | Array    | O       | The recycled content specific to the<br>processNames for a given processSteps object       |
 | creditsSet:<br>CreditsSet                 | Array    | O       | An array of credits corresponding to the discrete<br>processes listed in processNames      |
 
-### Data Type 4.7 ProcessStepsSet
+### Data Type 4.7. ProcessStepsSet
 
 A set of ProcessSteps values. 
 
-#### Data Type 4.7.1 
+#### Data Type 4.7.1. 
 
 As an array of objects, with each object conforming to the JSON representation of ProcessSteps.
 
-### Data Type 4.8 ProcessNames
+### Data Type 4.8. ProcessNames
 
 ProcessNames refers to the discrete processes undertaken in the production of steel, as outlined in [RMI's Steel Emissions Reporting Guidance.](https://rmi.org/wp-content/uploads/2022/09/steel_emissions_reporting_guidance.pdf)
 
-#### Data Type 4.8.1 JSON Representation 
+#### Data Type 4.8.1. JSON Representation 
 
 Each ProcessNames value MUST be encoded as JSON string.
 
-### Data Type 4.9 ProcessNamesSet
+### Data Type 4.9. ProcessNamesSet
 
 A set of ProcessNames of size 1 or larger.
 
-#### Data Type 4.9.1 JSON Data Representation 
+#### Data Type 4.9.1. JSON Data Representation 
 
 As an array of strings, with each string conforming to the JSON representation of ProcessNames.
 
-### Data Type 4.10 Credits
+### Data Type 4.10. Credits
 
 Credits refer to the c
 
-#### 4.10.1 Properties
+#### 4.10.1. Properties
 
 The properties of a Credits object are listed in the table below. 
 
@@ -160,11 +160,11 @@ The properties of a Credits object are listed in the table below.
 | creditName                  | String   | M       | The name of the credit                                           |
 | creditDescription           | String   | O       | A description of a given credit                                  |
 
-### Data Type 4.11 CreditsSet
+### Data Type 4.11. CreditsSet
 
 A set of Credits
 
-#### Data Type 4.11.1
+#### Data Type 4.11.1.
 
 As an array of Credits, with each object conforming to the JSON representation of Credits. 
 
