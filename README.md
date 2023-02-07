@@ -45,9 +45,9 @@ The data model extension contains additional information for steel products, bey
 
 The data model extension consists of the following: 
 
-1. AbatementTechnology 
-2. RecycledContentSet 
-3. ProcessGroupsSet 
+1. AbatementTechnology: A qualitative measure of the 
+2. RecycledContentSet: contains information related to the total recycled content used in steel production. (see [4.3 Data Type: RecycledContentSet]) 
+3. ProcessGroupsSet: contains information related to the companies and steps of the steel production process. (see [4.5 Data Type ProcessGroupsSet]
 
 ### 4.1 Data Type: AbatementTechnology 
 
@@ -59,19 +59,73 @@ Each AbatementTechnology MUST be encoded as a JSON string.
 
 ### 4.2 Data Type: RecycledContent
 
-RecycledContent refers to the overall recycled content used in the production of the steel (see [RMI's Steel Emissions Reporting Guidance](https://rmi.org/wp-content/uploads/2022/09/steel_emissions_reporting_guidance.pdf)
+RecycledContent refers to the recycled content used in the production of the steel (see [RMI's Steel Emissions Reporting Guidance](https://rmi.org/wp-content/uploads/2022/09/steel_emissions_reporting_guidance.pdf)
 
 #### 4.2.1 Properties
 
+The properties of a RecycledContent are listed in the table below. 
+
+| **Property**                       | **Type** | **Req** | **Specification**                                                              |
+|------------------------------------|----------|---------|--------------------------------------------------------------------------------|
+| recycledPercentage:<br>Percent     | Number   | M       | The percentage of recycled material <br>used in steel production               |
+| postConsumerPercentage:<br>Percent | Number   | O       | The percentage of post-consumer recycled <br>material used in steel production |
+| recycleName                        | String   | O       | The name of the recycling process used                                         |
+| recycleDescription                 | String   | O       | A description of the recycling process used                                    |
+
+### 4.3 Data Type: RecycledContentSet
+
+A set of RecycledContent values. 
+
+#### 4.3.1. JSON Representation
+
+As an array of objects, with each object conforming to the JSON representation of RecycledContent.
 
 ### 4.3 Data Type ProcessGroups
 
+Data Process Groups
+
 #### 4.3.1 Properties
 
+The properties of a ProcessGroups object are listed in the table below. 
 
-### 4.4 Data Type ProcessSteps 
+| **Property**                        | **Type** | **Req** | **Specification**                                                                                  |
+|-------------------------------------|----------|---------|----------------------------------------------------------------------------------------------------|
+| processCompanyNames                 | Array    | M       | An array of the companies involved in<br> discrete processes in steel production                   |
+| processCompanyIds                   | Array    | M       | An array of the company ids, corresponding<br> to the processCompanyNames                          |
+| processStepsSet:<br>ProcessStepsSet | Array    | M       | An array of processSteps, each containing information<br> about discrete processes in steel production  |
+
+### 4.4 Data Type ProcessGroupsSet
+
+A set of ProcessGroups values. 
 
 #### 4.4.1 Properties 
 
+As an array of objects, with each object conforming to the JSON representation of ProcessGroups.
+
+### 4.4 Data Type ProcessSteps 
 
 
+
+#### 4.4.1 Properties 
+
+The properties of a ProcessSteps object are listed in the table below. 
+
+| **Property**                              | **Type** | **Req** | **Specification**                                                                          |
+|-------------------------------------------|----------|---------|--------------------------------------------------------------------------------------------|
+| siteName                                  | String   | M       | The site name of a steel production facility                                               |
+| siteIds                                   | Array    | O       | An array of the site ids, corresponding to the <br>siteName                                |
+| processNamesSet:<br>processNamesSet       | Array    | M       | An array of the discrete processes, corresponding<br>to a site, in the production of steel |
+| processGhgEmissions:<br>Decimal           | Number   | M       | The total GHG Emissions corresponding to the<br>discrete processes listed in processNames  |
+| processPrimaryDataShare:<br>Percent       | Number   | M       | The primary data share corresponding to the <br>discrete processes listed in processNames  |
+| exportProducts                            | Array    | O       | An array of export products in the production<br>of steel                                  |
+| exportGhgEmissions:<br>Decimal            | Number   | O       | The total GHG Emissions corresponding to the <br>exportProducts                            |
+| recycledContentSet:<br>RecycledContentSet | Array    | O       | The recycled content specific to the<br>processNames for a given processSteps object       |
+| creditsSet:<br>CreditsSet                 | Array    | O       | An array of credits corresponding to the discrete<br>processes listed in processNames      |
+
+### Data Type 4.5 ProcessStepsSet
+
+A set of ProcessSteps values. 
+
+#### Data Type 4.5.1 
+
+As an array of objects, with each object conforming to the JSON representation of ProcessSteps.
