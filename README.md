@@ -158,7 +158,7 @@ The properties of a Credits object are listed in the table below.
 |-----------------------------|----------|---------|------------------------------------------------------------------|
 | creditEmissions:<br>Decimal | Number   | M       | GHG Emissions for a credit, <br>corresponding to processNamesSet |
 | creditName                  | String   | M       | The name of the credit                                           |
-| creditDescriptions          | String   | O       | A description of a given credit                                  |
+| creditDescription           | String   | O       | A description of a given credit                                  |
 
 ### Data Type 4.11 CreditsSet
 
