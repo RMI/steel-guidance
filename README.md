@@ -59,7 +59,7 @@ Each AbatementTechnology MUST be encoded as a JSON string.
 
 ### 4.2 Data Type: RecycledContent
 
-RecycledContent refers to the recycled content used in the production of the steel (see [RMI's Steel Emissions Reporting Guidance](https://rmi.org/wp-content/uploads/2022/09/steel_emissions_reporting_guidance.pdf)
+RecycledContent refers to the recycled content used in the production of the steel (see [RMI's Steel Emissions Reporting Guidance](https://rmi.org/wp-content/uploads/2022/09/steel_emissions_reporting_guidance.pdf))
 
 #### 4.2.1 Properties
 
@@ -129,3 +129,43 @@ A set of ProcessSteps values.
 #### Data Type 4.7.1 
 
 As an array of objects, with each object conforming to the JSON representation of ProcessSteps.
+
+### Data Type 4.8 ProcessNames
+
+ProcessNames refers to the discrete processes undertaken in the production of steel, as outlined in [RMI's Steel Emissions Reporting Guidance.](https://rmi.org/wp-content/uploads/2022/09/steel_emissions_reporting_guidance.pdf)
+
+#### Data Type 4.8.1 JSON Representation 
+
+Each ProcessNames value MUST be encoded as JSON string.
+
+### Data Type 4.9 ProcessNamesSet
+
+A set of ProcessNames of size 1 or larger.
+
+#### Data Type 4.9.1 JSON Data Representation 
+
+As an array of strings, with each string conforming to the JSON representation of ProcessNames.
+
+### Data Type 4.10 Credits
+
+Credits refer to the c
+
+#### 4.10.1 Properties
+
+The properties of a Credits object are listed in the table below. 
+
+| **Property**                | **Type** | **Req** | **Specification**                                                |
+|-----------------------------|----------|---------|------------------------------------------------------------------|
+| creditEmissions:<br>Decimal | Number   | M       | GHG Emissions for a credit, <br>corresponding to processNamesSet |
+| creditName                  | String   | M       | The name of the credit                                           |
+| creditDescriptions          | String   | O       | A description of a given credit                                  |
+
+### Data Type 4.11 CreditsSet
+
+A set of Credits
+
+#### Data Type 4.11.1
+
+As an array of Credits, with each object conforming to the JSON representation of Credits. 
+
+
