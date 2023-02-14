@@ -13,6 +13,7 @@ The goal of this document is to enable the interoperable exchange of steel Produ
 For a full list of terminology, please refer to the [terminology](https://wbcsd.github.io/data-exchange-protocol/v2/#terminology) section of the Pathfinder techical specification. 
 
 #### Abatement Technology 
+  A qualitative label of the techology used to reduce emissions in the steel supply chain. For more information please refer to the [Abatement Technology] section of RMI's [Steel Emissions Reporting Guidance](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)
 
 #### Process Groups
 
