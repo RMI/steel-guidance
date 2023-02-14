@@ -1,21 +1,5 @@
 # Technical Specifications for RMI Steel PCF Data Exchange
-## Living document, 2 February 2023 
-
-### Contacts
-
-#### RMI
-Lachlan Wright (lwright@rmi.org)<br>
-Xiyuan Liu (xliu@rmi.org)<br>
-Iris Wu (iwu@rmi.org)<br>
-Sravan Chalasani (schalasani@rmi.org)
-
-------------------------
-
-## Abstract 
-
-This repository holds RMI's Steel Emissions Reporting Guidance, along with licensing and related documents. The guidance was launched in September of 2022--you can read the blog post [here](https://rmi.org/knowing-the-emissions-of-your-steel-supply-chain/) and press release [here](https://rmi.org/press-release/rmi-releases-guidance-to-cut-steel-industrys-climate-threat/).
-
-The guidance was authored by [RMI](https://rmi.org/) in collaboration with the [World Business Council for Sustainable Development (WBCSD)](https://www.wbcsd.org/) and its [Automotive Partnership for Carbon Transparency (A-PACT)](https://www.wbcsd.org/Pathways/Transport-Mobility/News/Leading-manufacturers-support-move-towards-better-emissions-measurement-for-the-automotive-industry) initiative.
+## Updated 14 February 2023 
 
 -------------------------
 ## 1. Introduction 
@@ -26,16 +10,21 @@ The goal of this document is to enable the interoperable exchange of steel Produ
 
 ## 2. Terminology 
 
+For a full list of terminology, please refer to the [terminology](https://wbcsd.github.io/data-exchange-protocol/v2/#terminology) section of the Pathfinder techical specification. 
+
+### Abatement Technology 
+
+### Process Groups
+
+### Process Steps 
+
+### Process Names 
+
+### Credits 
 
 ## 3. Conformance 
 
-As well as sections marked as non-normative, all authoring guidelines, diagrams, examples, and notes in this specification are non-normative. Everything else in this specification is normative.
-
-The key words MAY, MUST, MUST NOT, OPTIONAL, RECOMMENDED, REQUIRED, SHOULD, and SHOULD NOT in this document are to be interpreted as described in [RFC2119] [RFC8174] when, and only when, they appear in all capitals, as shown here.
-
-A conforming host system is any algorithm realized as software and/or hardware that complies with the relevant normative statements in § 6 HTTP REST API.
-
-A conforming requesting data recipient is any algorithm realized as software and/or hardware that complies with the relevant normative statements in § 6 HTTP REST API.
+For conformance with the Pathfinder Network, please refer to the [conformance](https://wbcsd.github.io/data-exchange-protocol/v2/#conformance) section of the Pathfinder technical specification. 
 
 ## 4. Data Model Extension 
 
