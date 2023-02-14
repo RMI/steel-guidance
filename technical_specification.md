@@ -12,15 +12,15 @@ The goal of this document is to enable the interoperable exchange of steel Produ
 
 For a full list of terminology, please refer to the [terminology](https://wbcsd.github.io/data-exchange-protocol/v2/#terminology) section of the Pathfinder techical specification. 
 
-### Abatement Technology 
+#### Abatement Technology 
 
-### Process Groups
+#### Process Groups
 
-### Process Steps 
+#### Process Steps 
 
-### Process Names 
+#### Process Names 
 
-### Credits 
+#### Credits 
 
 ## 3. Conformance 
 
