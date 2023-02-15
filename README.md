@@ -10,7 +10,7 @@ This repository contains supporting documents for a [Pathfinder Network](https:/
 
 Technical guidance on the Pathfinder Network data model can be found [here.](https://wbcsd.github.io/data-exchange-protocol/v2/)
 
-## Key Terms 
+### Key Terms 
 
 Some key terms for understanding the data model extension: 
 
