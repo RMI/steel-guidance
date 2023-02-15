@@ -142,7 +142,7 @@ As an array of strings, with each string conforming to the JSON representation o
 
 ### Data Type 4.10. Credits
 
-Credits refer to the c
+See [Terminology](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#credits).
 
 #### 4.10.1. Properties
 
@@ -156,7 +156,7 @@ The properties of a Credits object are listed in the table below.
 
 ### Data Type 4.11. CreditsSet
 
-A set of Credits
+A set of Credits values. 
 
 #### Data Type 4.11.1.
 
