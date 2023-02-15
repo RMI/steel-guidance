@@ -22,7 +22,7 @@ For a full list of terminology, please refer to the [Terminology](https://wbcsd.
   Discrete processes used in the production of steel. E.g. hot rolling, briquetting, casting. For more information see Sec 2.2 Fixed Boundary of RMI's [Steel Emissions Reporting Guidance.](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)
 
 #### Process Steps 
-  A grouping of Process Names along with their total emissions intensity, recycled content, exports, credits, and other related meta-data. See [4.6. Data Type ProcessSteps](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#46-data-type-processsteps).
+  A grouping of Process Names along with their total emissions intensity, recycled content, exports, credits, and other related metadata. See [4.6. Data Type ProcessSteps](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#46-data-type-processsteps).
 
 #### Process Groups 
   A grouping of Process Steps along with company information. See [4.4. Data Type ProcessGroups](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#44-data-type-processgroups).
@@ -85,7 +85,7 @@ The properties of a ProcessGroups object are listed in the table below.
 | **Property**                        | **Type** | **Req** | **Specification**                                                                                  |
 |-------------------------------------|----------|---------|----------------------------------------------------------------------------------------------------|
 | processCompanyNames                 | Array    | M       | An array of the companies involved in<br> discrete processes in steel production                   |
-| processCompanyIds                   | Array    | M       | An array of the company ids, corresponding<br> to the processCompanyNames                          |
+| processCompanyIds                   | Array    | M       | An array of the company IDs, corresponding<br> to the processCompanyNames                          |
 | processStepsSet:<br>ProcessStepsSet | Array    | M       | An array of processSteps, each containing information<br> about discrete processes in steel production  |
 
 ### 4.5. Data Type ProcessGroupsSet
@@ -107,7 +107,7 @@ The properties of a ProcessSteps object are listed in the table below.
 | **Property**                              | **Type** | **Req** | **Specification**                                                                          |
 |-------------------------------------------|----------|---------|--------------------------------------------------------------------------------------------|
 | siteName                                  | String   | M       | The site name of a steel production facility                                               |
-| siteIds                                   | Array    | O       | An array of the site ids, corresponding to the <br>siteName                                |
+| siteIds                                   | Array    | O       | An array of the site IDs, corresponding to the <br>siteName                                |
 | processNamesSet:<br>processNamesSet       | Array    | M       | An array of the discrete processes, corresponding<br>to a site, in the production of steel |
 | processGhgEmissions:<br>Decimal           | Number   | M       | The total GHG Emissions corresponding to the<br>discrete processes listed in processNames  |
 | processPrimaryDataShare:<br>Percent       | Number   | M       | The primary data share corresponding to the <br>discrete processes listed in processNames  |
