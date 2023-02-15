@@ -17,18 +17,19 @@ For a full list of terminology, please refer to the [Terminology](https://wbcsd.
   
 #### Credits 
   Avoided emissions outside the fixed systems boundary. Credits are required to be seperately reported from the total emissions intensity.
+  
 #### Process Names 
   Discrete processes used in the production of steel. E.g. hot rolling, briquetting, casting. For more information see Sec 2.2 Fixed Boundary of RMI's [Steel Emissions Reporting Guidance.](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)
 
 #### Process Steps 
-  A grouping of Process Names along with their total emissions intensity, recycled content, exports, credits, and other related meta-data. See [4.6. Data Type ProcessSteps] 
+  A grouping of Process Names along with their total emissions intensity, recycled content, exports, credits, and other related meta-data. See [4.6. Data Type ProcessSteps](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#46-data-type-processsteps).
 
 #### Process Groups 
-  A grouping of Process Steps along with company information. See [4.4. Data Type ProcessGroups]
+  A grouping of Process Steps along with company information. See [4.4. Data Type ProcessGroups](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#44-data-type-processgroups).
 
 ## 3. Conformance 
 
-For conformance with the Pathfinder Network, please refer to the [conformance](https://wbcsd.github.io/data-exchange-protocol/v2/#conformance) section of the Pathfinder technical specification. 
+For conformance with the Pathfinder Network, please refer to the [Conformance](https://wbcsd.github.io/data-exchange-protocol/v2/#conformance) section of the Pathfinder technical specification. 
 
 ## 4. Data Model Extension 
 
@@ -38,9 +39,9 @@ The data model extension contains additional information for steel products, bey
 
 The data model extension consists of the following: 
 
-1. AbatementTechnology: A qualitative measure of the 
-2. RecycledContentSet: contains information related to the total recycled content used in steel production. (see [4.3 Data Type: RecycledContentSet]) 
-3. ProcessGroupsSet: contains information related to the companies and steps of the steel production process. (see [4.5 Data Type ProcessGroupsSet]
+1. AbatementTechnology:  A qualitative label of the techology used to reduce emissions in the steel supply chain. See [Terminology](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#abatement-technology)
+2. RecycledContentSet: contains information related to the total recycled content used in steel production. See [4.3 Data Type: RecycledContentSet](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#43-data-type-recycledcontentset). 
+3. ProcessGroupsSet: contains information related to the companies and steps of the steel production process. See [4.5 Data Type ProcessGroupsSet](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#45-data-type-processgroupsset).
 
 ### 4.1. Data Type: AbatementTechnology 
 
@@ -75,7 +76,7 @@ As an array of objects, with each object conforming to the JSON representation o
 
 ### 4.4. Data Type ProcessGroups
 
-See [Terminology] section for definition of Process Groups. 
+See [Terminology](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#process-groups) section for definition of Process Groups. 
 
 #### 4.4.1. Properties
 
@@ -97,7 +98,7 @@ As an array of objects, with each object conforming to the JSON representation o
 
 ### 4.6. Data Type ProcessSteps 
 
-See [Terminology] section for definition of Process Steps 
+See [Terminology](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#process-steps) section for definition of Process Steps 
 
 #### 4.6.1. Properties 
 
@@ -125,7 +126,7 @@ As an array of objects, with each object conforming to the JSON representation o
 
 ### Data Type 4.8. ProcessNames
 
-See [Terminology] section for definition of Process Names. 
+See [Terminology](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#process-names) section for definition of Process Names. 
 
 #### Data Type 4.8.1. JSON Representation 
 
