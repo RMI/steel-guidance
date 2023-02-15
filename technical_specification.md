@@ -6,22 +6,25 @@
 
 This document contains the necessary technical foundation for a steel data model extension to the [Pathfinder Network,](https://wbcsd.github.io/data-exchange-protocol/v2/#pathfinder-network) developed by [RMI.](https://rmi.org/) For full documentation of the Pathfinder Network, refer to the link above. 
 
-The goal of this document is to enable the interoperable exchange of steel Product Carbon Footprints, in accordance with the RMI Steel Emissions Reporting Guidance, across conforming host systems. 
+The goal of this document is to enable the interoperable exchange of steel Product Carbon Footprints, in accordance with the RMI's [Steel Emissions Reporting Guidance](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf), across conforming host systems. 
 
 ## 2. Terminology 
 
-For a full list of terminology, please refer to the [terminology](https://wbcsd.github.io/data-exchange-protocol/v2/#terminology) section of the Pathfinder techical specification. 
+For a full list of terminology, please refer to the [Terminology](https://wbcsd.github.io/data-exchange-protocol/v2/#terminology) section of the Pathfinder techical specification. 
 
 #### Abatement Technology 
-  A qualitative label of the techology used to reduce emissions in the steel supply chain. For more information please refer to the [Abatement Technology] section of RMI's [Steel Emissions Reporting Guidance](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)
-
-#### Process Groups
+  A qualitative label of the techology used to reduce emissions in the steel supply chain. For more information please refer to the [Abatement Technology] section of RMI's [Steel Emissions Reporting Guidance.](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)
+  
+#### Credits 
+  Avoided emissions outside the fixed systems boundary. Credits are required to be seperately reported from the total emissions intensity.
+#### Process Names 
+  Discrete processes used in the production of steel. E.g. hot rolling, briquetting, casting. For more information see Sec 2.2 Fixed Boundary of RMI's [Steel Emissions Reporting Guidance.](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)
 
 #### Process Steps 
+  A grouping of Process Names along with their total emissions intensity, recycled content, exports, credits, and other related meta-data. See [4.6. Data Type ProcessSteps] 
 
-#### Process Names 
-
-#### Credits 
+#### Process Groups 
+  A grouping of Process Steps along with company information. See [4.4. Data Type ProcessGroups]
 
 ## 3. Conformance 
 
@@ -72,7 +75,7 @@ As an array of objects, with each object conforming to the JSON representation o
 
 ### 4.4. Data Type ProcessGroups
 
-Data Process Groups
+See [Terminology] section for definition of Process Groups. 
 
 #### 4.4.1. Properties
 
@@ -94,7 +97,7 @@ As an array of objects, with each object conforming to the JSON representation o
 
 ### 4.6. Data Type ProcessSteps 
 
-
+See [Terminology] section for definition of Process Steps 
 
 #### 4.6.1. Properties 
 
@@ -122,7 +125,7 @@ As an array of objects, with each object conforming to the JSON representation o
 
 ### Data Type 4.8. ProcessNames
 
-ProcessNames refers to the discrete processes undertaken in the production of steel, as outlined in [RMI's Steel Emissions Reporting Guidance.](https://rmi.org/wp-content/uploads/2022/09/steel_emissions_reporting_guidance.pdf)
+See [Terminology] section for definition of Process Names. 
 
 #### Data Type 4.8.1. JSON Representation 
 
