@@ -4,6 +4,41 @@ This repository holds RMI's Steel Emissions Reporting Guidance, along with licen
 
 The guidance was authored by [RMI](https://rmi.org/) in collaboration with the [World Business Council for Sustainable Development (WBCSD)](https://www.wbcsd.org/) and its [Automotive Partnership for Carbon Transparency (A-PACT)](https://www.wbcsd.org/Pathways/Transport-Mobility/News/Leading-manufacturers-support-move-towards-better-emissions-measurement-for-the-automotive-industry) initiative.
 
+## Pathfinder Network Data Model Extension 
+
+This repository contains supporting documents for a [Pathfinder Network](https://www.carbon-transparency.com/) Data Model Extension for Steel, which is designed to be used in concert with RMI's Steel Emissions Reporting Guidance. 
+
+Technical guidance on the Pathfinder Network data model can be found [here.](https://wbcsd.github.io/data-exchange-protocol/v2/)
+
+## Key Terms 
+
+Some key terms for understanding the data model extension: 
+
+#### Abatement Technology 
+  A qualitative label of the techology used to reduce emissions in the steel supply chain. For more information please refer to the [Abatement Technology] section of RMI's [Steel Emissions Reporting Guidance.](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)
+  
+#### Credits 
+  Avoided emissions outside the fixed systems boundary. Credits are required to be seperately reported from the total emissions intensity.
+  
+#### Process Names 
+  Discrete processes used in the production of steel. E.g. hot rolling, briquetting, casting. For more information see Sec 2.2 Fixed Boundary of RMI's [Steel Emissions Reporting Guidance.](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)
+
+#### Process Steps 
+  A grouping of Process Names along with their total emissions intensity, recycled content, exports, credits, and other related metadata. See [4.6. Data Type ProcessSteps](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#46-data-type-processsteps).
+
+#### Process Groups 
+  A grouping of Process Steps along with company information. See [4.4. Data Type ProcessGroups](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#44-data-type-processgroups).
+
+### Techical Guidance 
+
+For full techical guidance on RMI's Steel Data Model Extension, see [here.](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md)
+
+### Sample and Schema Files 
+
+A sample file of the data model extension can be found [here.](https://github.com/RMI/steel-guidance/blob/main/steel_extension_sample.json) Note: this sample file includes the full Pathfinder Data Model file as well as RMI's Steel Extension 
+
+A json schema file for the data model extension can be found [here.](https://github.com/RMI/steel-guidance/blob/main/steel_json_schema.json)
+
 ## Contacts
 
 ### RMI
