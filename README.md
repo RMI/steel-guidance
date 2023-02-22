@@ -9,7 +9,7 @@ The accounting guidance can be found [here:](https://github.com/RMI/steel-guidan
 This guidance was authored by [RMI](https://rmi.org/) in collaboration with the [World Business Council for Sustainable Development (WBCSD)](https://www.wbcsd.org/) and its [Automotive Partnership for Carbon Transparency (A-PACT)](https://www.wbcsd.org/Pathways/Transport-Mobility/News/Leading-manufacturers-support-move-towards-better-emissions-measurement-for-the-automotive-industry) initiative.
 
 ### Emissions Reporting Requirements
-There are five key requirements for reporting steel sector emissions using this Steel Emissions Reporting Guidance:
+There are four key requirements for reporting steel sector emissions using this Steel Emissions Reporting Guidance:
 
 #### 1. Product level
 Emissions must be reported at the product level for an individual site.
@@ -19,15 +19,11 @@ All emissions from a set of processes must be reported irrespective of whether t
 ownership or control of these processes.
 
 #### 3. Supply chain transparency
-Additional context on emissions with regard to the ore or scrap metallic inputs used to
-assist in understanding the overall emissions footprint.
+Additional context about the scrap-based inputs, total carbon emissions intensity position relative to the 1.5C trajectory and abatement technology (refer to section 2.4) assist in understanding the overall emissions footprint.
 
 #### 4. Data source
 Emissions disclosures must include the fraction of the emissions footprint that is based on primary
 data (refer to section 3.5)20 and separately report any emissions credits.
-
-#### 5. Abatement Technology
-A qualitative label of the techology used to reduce emissions in the steel supply chain. For more information please refer to the [Abatement Technology] section of RMI's [Steel Emissions Reporting Guidance.](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)
 
 ### Fixed System Boundary
 The fixed system boundary defines all the process steps from which emissions need to be reported irrespective of the steel companies’ ownership structure. This approach solves two key issues:
