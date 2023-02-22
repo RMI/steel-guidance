@@ -1,5 +1,5 @@
 # Technical Specifications for RMI Steel PCF Data Exchange
-## Updated 14 February 2023
+## Updated 21 February 2023
 
 -------------------------
 ## 1. Introduction
@@ -40,7 +40,7 @@ The data model extension consists of the following:
 3. ProcessGroupsSet: contains information related to the companies and steps of the steel production process. See [4.5 Data Type ProcessGroupsSet](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#45-data-type-processgroupsset).
 
 ### 4.1. Data Type: AbatementTechnology
-AbatementTechnology is the enumeration of abatement technologies used in the steel production process. 
+AbatementTechnology is the enumeration of abatement technologies used in the steel production process.
 Valid values are:
 
 #### 4.1.1. JSON Representation
@@ -60,7 +60,7 @@ The properties of a RecycledContent are listed in the table below.
 | recycleDescription                 | String   | O       | A description of the recycling process used                                    |
 
 ### 4.3. Data Type: RecycledContentSet
-A set of RecycledContent values. 
+A set of RecycledContent values.
 
 #### 4.3.1. JSON Representation
 As an array of objects, with each object conforming to the JSON representation of RecycledContent.
@@ -69,7 +69,7 @@ As an array of objects, with each object conforming to the JSON representation o
 See [Terminology](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#process-groups) section for definition of Process Groups.
 
 #### 4.4.1. Properties
-The properties of a ProcessGroups object are listed in the table below. 
+The properties of a ProcessGroups object are listed in the table below.
 
 | **Property**                        | **Type** | **Req** | **Specification**                                                                                  |
 |-------------------------------------|----------|---------|----------------------------------------------------------------------------------------------------|
@@ -83,7 +83,7 @@ A set of ProcessGroups values.
 #### 4.5.1. Properties
 As an array of objects, with each object conforming to the JSON representation of ProcessGroups.
 
-### 4.6. Data Type ProcessSteps 
+### 4.6. Data Type ProcessSteps
 See [Terminology](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#process-steps) section for definition of Process Steps.
 
 #### 4.6.1. Properties
@@ -102,9 +102,9 @@ The properties of a ProcessSteps object are listed in the table below.
 | creditsSet:<br>CreditsSet                 | Array    | O       | An array of credits corresponding to the discrete<br>processes listed in processNames      |
 
 ### Data Type 4.7. ProcessStepsSet
-A set of ProcessSteps values. 
+A set of ProcessSteps values.
 
-#### Data Type 4.7.1. Properties 
+#### Data Type 4.7.1. Properties
 As an array of objects, with each object conforming to the JSON representation of ProcessSteps.
 
 ### Data Type 4.8. ProcessNames
