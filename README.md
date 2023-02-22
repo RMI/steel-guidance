@@ -1,6 +1,6 @@
 # RMI Steel Emissions Reporting Guidance
 
-This repository holds RMI's Steel Emissions Reporting Guidance, along with licensing and related documents. RMI's Steel Emissions Reporting Guidance consists of accounting guidance, in the form of pdf file, as well as a Pathfinder Network Data Model Extension The accounting guidance was launched in September of 2022--you can read the blog post [here](https://rmi.org/knowing-the-emissions-of-your-steel-supply-chain/) and press release [here](https://rmi.org/press-release/rmi-releases-guidance-to-cut-steel-industrys-climate-threat/).
+This repository holds RMI's Steel Emissions Reporting Guidance, along with licensing and related documents. RMI's Steel Emissions Reporting Guidance consists of accounting guidance, in the form of PDF file, as well as a Pathfinder Network Data Model Extension The accounting guidance was launched in September of 2022--you can read the blog post [here](https://rmi.org/knowing-the-emissions-of-your-steel-supply-chain/) and press release [here](https://rmi.org/press-release/rmi-releases-guidance-to-cut-steel-industrys-climate-threat/).
 
 ## Product Level Accounting Guidance 
 
