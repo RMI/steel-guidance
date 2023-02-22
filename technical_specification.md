@@ -104,7 +104,7 @@ The properties of a ProcessSteps object are listed in the table below.
 ### Data Type 4.7. ProcessStepsSet
 A set of ProcessSteps values. 
 
-#### Data Type 4.7.1.
+#### Data Type 4.7.1. Properties 
 As an array of objects, with each object conforming to the JSON representation of ProcessSteps.
 
 ### Data Type 4.8. ProcessNames
@@ -134,5 +134,5 @@ The properties of a Credits object are listed in the table below.
 ### Data Type 4.11. CreditsSet
 A set of Credits values.
 
-#### Data Type 4.11.1.
+#### Data Type 4.11.1 Properties
 As an array of Credits, with each object conforming to the JSON representation of Credits.
