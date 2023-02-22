@@ -63,9 +63,26 @@
       }
     ],
     "allocationRulesDescription": "",
-    "uncertaintyAssessmentDescription": "",
-    "dqi": "",
-    "assurance": ""
+    "uncertaintyAssessmentDescription": ""
+  },
+  "dqi": 
+  {
+    "coveragePercent": "",
+    "technologicalDQR": "",
+    "temporalDQR": "",
+    "geographicalDQR": "",
+    "completenessDQR": "",
+    "reliabilityDQR": ""
+  },
+  "assurance": 
+  {
+    "coverage": "",
+    "level": "",
+    "boundary": "",
+    "providerName": "",
+    "completedAt": "",
+    "standardName": "",
+    "comments": ""
   },
   "extensions": [
     {
