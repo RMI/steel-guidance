@@ -19,7 +19,7 @@ All emissions from a set of processes must be reported irrespective of whether t
 ownership or control of these processes.
 
 #### 3. Supply chain transparency
-Additional context about the scrap-based inputs, total carbon emissions intensity position relative to the 1.5C trajectory and abatement technology (refer to section 2.4) assist in understanding the overall emissions footprint.
+Additional context about the scrap-based inputs, total carbon emissions intensity position relative to the 1.5C trajectory and abatement technology (refer to section 2.4 of the [accounting guidance.](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)) to assist in understanding the overall emissions footprint.
 
 #### 4. Data source
 Emissions disclosures must include the fraction of the emissions footprint that is based on primary
@@ -42,7 +42,7 @@ The Pathfinder Data Model is designed to enable the use of machine-readable shar
 Some key terms for understanding the data model extension:
 
 #### Abatement Technology
-  A qualitative label of the techology used to reduce emissions in the steel supply chain. For more information please refer to the [Abatement Technology] section of RMI's [Steel Emissions Reporting Guidance.](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)
+  A qualitative label of the techology used to reduce emissions in the steel supply chain. For more information please refer to section 2.4 of the [accounting guidance.](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)
   
 #### Credits
   Avoided emissions outside the fixed systems boundary. Credits are required to be seperately reported from the total emissions intensity.
