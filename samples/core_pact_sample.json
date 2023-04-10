@@ -28,33 +28,14 @@
     "pCfIncludingBiogenic": "",
     "fossilGhgEmissions": "",
     "fossilCarbonContent": "",
-    "biogenicEmissions": 
-      {
-    	  "landUseEmissions": "",
-    	  "landUseChangeEmissions": "",
-    	  "otherEmissions": ""
-      },
     "biogenicCarbonContent": "",
+    "dLucGhgEmissions": "",
+    "landManagementGhgEmissions": "",
+    "otherBiogenicEmissions": "",
+    "iLucGhgEmissions": "",
     "biogenicCarbonWithdrawal": "",
-    "characterizationFactors": "",
-    "biogenicAccountingMethodology": "",
-    "reportingPeriodStart": "",
-    "reportingPeriodEnd": "",
-    "geographyCountrySubdivision": "",
-    "geographyCountry": "",
-    "geographyRegionOrSubregion": "",
-    "primaryDataShare": "",
-    "emissionsFactorSources": [
-      {
-        "name": "",
-        "version": ""
-      }
-    ],
-    "boundaryProcessDescription": "",
-    "exemptedEmissionsPercent": "",
-    "exemptedEmissionsDescription": "",
-    "packagingEmissionsIncluded": "",
-    "packagingGhgEmissions": "",
+    "aircraftGhgEmissions": "",
+    "characterizationFactors": "",    
     "crossSectoralStandardsUsed": [
       "GHG Protocol Product standard",
       "ISO Standard 14067",
@@ -67,26 +48,44 @@
         "otherOperatorName": ""
       }
     ],
+    "biogenicAccountingMethodology": "",
+    "boundaryProcessDescription": "",
+    "referencePeriodStart": "",
+    "referencePeriodEnd": "",
+    "geographyCountrySubdivision": "",
+    "geographyCountry": "",
+    "geographyRegionOrSubregion": "",
+    "secondaryEmissionFactorSources":  [
+      {
+        "name": "",
+        "version": ""
+      }
+    ],
+    "exemptedEmissionsPercent": "",
+    "exemptedEmissionsDescription": "",
+    "packagingEmissionsIncluded": "",
+    "packagingGhgEmissions": "",
     "allocationRulesDescription": "",
-    "uncertaintyAssessmentDescription": ""
-  },
-  "dqi": 
-  {
-    "coveragePercent": "",
-    "technologicalDQR": "",
-    "temporalDQR": "",
-    "geographicalDQR": "",
-    "completenessDQR": "",
-    "reliabilityDQR": ""
-  },
-  "assurance": 
-  {
-    "coverage": "",
-    "level": "",
-    "boundary": "",
-    "providerName": "",
-    "completedAt": "",
-    "standardName": "",
-    "comments": ""
+    "uncertaintyAssessmentDescription": "",
+    "primaryDataShare": "",
+    "dqi": 
+    {
+      "coveragePercent": "",
+      "technologicalDQR": "",
+      "temporalDQR": "",
+      "geographicalDQR": "",
+      "completenessDQR": "",
+      "reliabilityDQR": ""
+    },
+    "assurance": 
+    {
+      "coverage": "",
+      "level": "",
+      "boundary": "",
+      "providerName": "",
+      "completedAt": "",
+      "standardName": "",
+      "comments": ""
+    }
   }
 }
