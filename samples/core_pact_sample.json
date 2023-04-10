@@ -1,9 +1,14 @@
 {
   "id": "",
   "specVersion": "2.0.0",
+  "precedingPfIds": "",
   "version": "",
   "created": "",
   "updated": "",
+  "status": "",
+  "statusComment": "",
+  "validityPeriodStart":"",
+  "validityPeriodEnd": "",
   "companyName": "",
   "companyIds": [
     "URN DataType"
