@@ -94,11 +94,11 @@
       "dataSchema": "https://pathfinder.dev/data-schemas/1.0.0/rmi-steel.json",
       "documentation": "https://pathfinder.dev/data-schemas/1.0.0/rmi-steel/documentation/",
       "data": {
-        "abatementTechnology":"",
-        "oreBasedFossilGhgEmissions": "",
-        "oreGeographyCountrySubdivision": "",
-        "oreGeographyCountry": "",
-        "oreGeographyRegionOrSubregion": "",
+        "lowCarbonOrAbatementTech":"",
+        "mineToSmelterGhgEmissions": "",
+        "mineToSmelterGeographyCountrySubdivision": "",
+        "mineToSmelterGeographyCountry": "",
+        "mineToSmelterGeographyRegionOrSubregion": "",
         "recycledContent": [
           {
             "recycledPercentage": "",
