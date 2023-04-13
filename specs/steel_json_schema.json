@@ -1,8 +1,8 @@
 {
-  "$id": "https://github.com/RMI/steel-guidance/blob/main/steel_extension_sample.json",
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "PACT RMI Steel Extension Schema",
-  "description": "A Pathfinder Data Model Extension for sharing information emissions data in steel production.",
+  "$id": "https://github.com/RMI/steel-guidance/blob/main/samples/metals_extension.json",
+  "$schema": "https://github.com/RMI/steel-guidance/blob/main/specs/steel_json_schema.json",
+  "title": "PACT RMI Metals Extension Schema",
+  "description": "A Pathfinder Data Model Extension for sharing information emissions data in steel and aluminum production.",
   "$defs": {
     "recycling": {
       "type": "object",
@@ -79,7 +79,19 @@
   },
   "type": "object",
   "properties": {
-    "abatementTechnology": {
+    "lowCarbonOrAbatementTech": {
+      "type": "string"
+    },
+    "mineToSmelterGhgEmissions": {
+      "type": "number"
+    },
+    "mineToSmelterGeographyCountrySubdivision": {
+      "type": "string"
+    },
+    "mineToSmelterGeographyCountry": {
+      "type": "string"
+    },
+    "mineToSmelterGeographyRegionOrSubregion": {
       "type": "string"
     },
     "recycledContent": {
@@ -93,5 +105,5 @@
       "uniqueItems": true
       }
     },
-  "required": ["abatementTechnology","recycledContent","processGroups"]
+  "required": ["mineToSmelterGhgEmissions","recycledContent","processGroups"]
 }
