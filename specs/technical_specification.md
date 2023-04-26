@@ -14,13 +14,13 @@ For a full list of terminology, please refer to the [Terminology](https://wbcsd.
   A qualitative label of the techology used to reduce emissions in the steel and aluminum supply chains. For more information, please refer to the [Abatement Technology] section of RMI's [Steel Emissions Reporting Guidance.](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)
 
 ### Mine to Smelter
-  The ore-based or mine-to-smelter portion of aluminum production. For more information, please refer Secs 2.3 and 3.2 of RMI's Aluminum Guidance. 
+  The ore-based or mine-to-smelter portion of aluminum production. For more information, please refer Secs 2.3 and 3.2 of RMI's Aluminum Guidance.
 
 ### Credits
   Avoided emissions outside the fixed systems boundary. Credits are required to be seperately reported from the total emissions intensity.
   
 ### Process Names
-  Discrete processes used in the production of steel. E.g. hot rolling, briquetting, casting. For more information see Sec 2.2 Fixed Boundary of RMI's [Steel Emissions Reporting Guidance](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf) and Sec 2.2 Fixed System Boundary of RMI's Aluminum Guidance. 
+  Discrete processes used in the production of steel. E.g. hot rolling, briquetting, casting. For more information see Sec 2.2 Fixed Boundary of RMI's [Steel Emissions Reporting Guidance](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf) and Sec 2.2 Fixed System Boundary of RMI's Aluminum Guidance.
 
 #### Process Steps
   A grouping of Process Names along with their total emissions intensity, recycled content, exports, credits, and other related metadata. See [4.10. Data Type ProcessSteps](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#46-data-type-processsteps).
@@ -54,7 +54,7 @@ Valid values are:
 Each AbatementTechnology MUST be encoded as a JSON string.
 
 ### 4.2. Data Type: MineToSmelterGhgEmissions
-The emissions from the ore-based or mine-to-smelter portion of aluminum production. For more information, please refer Secs 2.3 and 3.2 of RMI's Aluminum Guidance. 
+The emissions from the ore-based or mine-to-smelter portion of aluminum production. For more information, please refer Secs 2.3 and 3.2 of RMI's Aluminum Guidance.
 
 #### 4.2.1. JSON Representation
 Each AbatementTechnology MUST be encoded as a JSON number.
@@ -75,7 +75,7 @@ Each AbatementTechnology MUST be encoded as a JSON string.
 A geographical field for the ore-based or mine-to-smelter portion of the aluminum production. The requirements for this field corresponds to the GeographyCountryRegionOrSubregion field in the [Pathfinder Data Model.](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)
 
 #### 4.5.1. JSON Representation
-Each AbatementTechnology MUST confrom to the JSON representation of the [RegionOrSubregion](https://wbcsd.github.io/data-exchange-protocol/v2/#enumdef-regionorsubregion) data type. 
+Each AbatementTechnology MUST confrom to the JSON representation of the [RegionOrSubregion](https://wbcsd.github.io/data-exchange-protocol/v2/#enumdef-regionorsubregion) data type.
 
 ### 4.6. Data Type: RecycledContent
 RecycledContent refers to the recycled content used in the production of the steel (see [RMI's Steel Emissions Reporting Guidance](https://rmi.org/wp-content/uploads/2022/09/steel_emissions_reporting_guidance.pdf))
