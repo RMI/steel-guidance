@@ -63,6 +63,7 @@
           "productAmount": "",
           "productDeclaredUnit": "",
           "benchmarkingGhgEmissions": "",
+          "creditGhgEmissions": "",
           "scrapBasedShare": "",
           "postConsumerScrapBasedShare": "",
           "geographyCountrySubdivision": "",
