@@ -1,0 +1,87 @@
+{
+  "id": "",
+  "specVersion": "2.0.0",
+  "version": "",
+  "created": "",
+  "updated": "",
+  "status": "",
+  "companyName": "",
+  "companyIds": [
+    "URN DataType"
+  ],
+  "productDescription": "",
+  "productIds": [
+    "ProductId DataType"
+  ],
+"productCategoryCps": "",
+"productNameCompany": "",
+"comment": "",
+"pcf": 
+  {
+    "declaredUnit":"",
+    "unitaryProductAmount": "",
+    "pCfExcludingBiogenic": "",
+    "fossilGhgEmissions": "",
+    "fossilCarbonContent": "",
+    "biogenicCarbonContent": "",
+    "characterizationFactors": "",    
+    "crossSectoralStandardsUsed": [
+      "GHG Protocol Product standard",
+      "ISO Standard 14067",
+      "ISO Standard 14044"
+    ],
+    "productOrSectorSpecificRules": [
+      {
+        "operator": "",
+        "ruleNames": "",
+        "otherOperatorName": ""
+      }
+    ],
+    "biogenicAccountingMethodology": "",
+    "boundaryProcessDescription": "",
+    "referencePeriodStart": "",
+    "referencePeriodEnd": "",
+    "geographyCountrySubdivision": "",
+    "geographyCountry": "",
+    "geographyRegionOrSubregion": "",
+    "exemptedEmissionsPercent": "",
+    "exemptedEmissionsDescription": "",
+    "packagingEmissionsIncluded": "",
+    "primaryDataShare": ""
+  },
+  "extensions": [
+    {
+      "specVersion": "2.0.0",
+      "dataSchema": "https://github.com/RMI/aluminum-guidance/blob/main/specs/aluminum_schema.json",
+      "documentation": "https://github.com/RMI/aluminum-guidance/blob/main/specs/aluminum_technical_specification.md",
+      "data": {
+        "abatementTechnology": "",
+        "benchmarkingFootprint": {
+          "referencePeriodStart": "",
+          "referencePeriodEnd": "",
+          "productDescription": "",
+          "productAmount": "",
+          "productDeclaredUnit": "",
+          "benchmarkingGhgEmissions": "",
+          "scrapBasedShare": "",
+          "postConsumerScrapBasedShare": ""
+          "geographyCountrySubdivision": "",
+          "geographyCountry": "",
+          "geographyRegionOrSubregion": ""
+          }
+        },
+        "fullBoundaryFootprint": {
+          "referencePeriodStart": "",
+          "referencePeriodEnd": "",
+          "productDescription": "",
+          "productAmount": "",
+          "productDeclaredUnit": "",
+          "fullBoundaryGhgEmissions": "",
+          "geographyCountrySubdivision": "",
+          "geographyCountry": "",
+          "geographyRegionOrSubregion": ""
+        }
+      }
+    }
+  ]
+}
