@@ -4,44 +4,23 @@
   "title": "PACT RMI Steel Extension Schema",
   "description": "A Pathfinder Data Model Extension for sharing information emissions data in steel production.",
   "$defs": {
-    "mineToSmelter": {
-      "type": "object",
-      "properties": {
-        "productDescription": {"type": "string"},
-        "productDeclaredUnit": {"type": "string"},
-        "mineToSmelterGhgEmissions": {"type": "number"},
-        "GeographyCountrySubdivision": {"type": "string"},
-        "GeographyCountry": {"type": "string"},
-        "GeographyRegionOrSubregion": {"type": "string"}
-      },
-      "required": ["mineToSmelterProductDescription","mineToSmelterGhgEmissions","mineToSmelterGeographyCountry"]
-    },
-    "valueAddedProduct": {
-      "type": "object",
-      "properties": {
-        "productDescription": {"type": "string"},
-        "productDeclaredUnit": {"type": "string"},
-        "ghgEmissionsCutoff": {"type": "number"},
-        "ghgEmissionsAllocation": {"type": "number"},
-        "scrapBasedShare": {"type": "number"},
-        "postConsumerScrapBasedShare": {"type": "number"}
-      },
-      "required": ["productDescription","ghgEmissionsCutoff","ghgEmissionsAllocation","scrapBasedShare","postConsumerScrapBasedShare"]
-    }, 
     "benchmarking": {
       "type": "object",
       "properties":{
         "referencePeriodStart": {"type": "date-time"},
         "referencePeriodEnd": {"type": "date-time"},
-        "mineToSmelter": {
-          "type": "object",
-          "items": {"$ref": "#/$defs/mineToSmelter"}
-        },
-        "valueAddedProduct": {
-          "type": "object",
-          "items": {"$ref": "#/$defs/valueAddedProduct"}
-        },
-        "required": ["referencePeriodStart","referencePeriodEnd","mineToSmelter"]
+        "productDescription": {"type": "string"},
+        "productDeclaredUnit": {"type": "string"},
+        "productAmount": {"type": "number"},
+        "benchmarkingGhgEmissions": {"type": "number"},
+        "creditGhgEmissions": {"type": "number"},
+        "scrapBasedShare": {"type": "number"},
+        "postConsumerScrapBasedShare": {"type": "number"},
+        "geographyCountrySubdivision": {"type": "string"},
+        "geographyCountry": {"type": "string"},
+        "geographyRegionOrSubregion": {"type": "number"}
+      },
+      "required": ["benchmarkingGhgEmissions","creditGhgEmissions","scrapBasedShare "]
       }
     },
     "fullBoundary": {
@@ -57,11 +36,12 @@
         "geographyCountry": {"type": "string"},
         "geographyRegionOrSubregion": {"type": "number"}
       },
-      "required": ["referencePeriodStart","referencePeriodEnd","productDescription","productDeclaredUnit","productAmount","fullBoundaryGhgEmissions","geographyCountry"]
+      "required": ["fullBoundaryGhgEmissions"]
     }
   },
   "type": "object",
   "properties": {
+    "abatementTechnology": {"type": "string"},
     "benchmarkingFootprint": {
       "type": "object",
       "items": {"$ref": "#/$defs/benchmarking"}
@@ -72,5 +52,5 @@
       }
        
   },
-  "required": ["benchmarkingFootprint"]
+  "required": ["abatementTechnology","benchmarkingFootprint"]
 }
