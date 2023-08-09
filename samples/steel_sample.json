@@ -52,8 +52,8 @@
   "extensions": [
     {
       "specVersion": "2.0.0",
-      "dataSchema": "https://github.com/RMI/aluminum-guidance/blob/main/specs/aluminum_schema.json",
-      "documentation": "https://github.com/RMI/aluminum-guidance/blob/main/specs/aluminum_technical_specification.md",
+      "dataSchema": "https://github.com/RMI/steel-guidance/blob/main/specs/steel_schema.json",
+      "documentation": "https://github.com/RMI/steel-guidance/blob/main/specs/steel_technical_specification.md",
       "data": {
         "abatementTechnology": "",
         "benchmarkingFootprint": {
@@ -64,7 +64,7 @@
           "productDeclaredUnit": "",
           "benchmarkingGhgEmissions": "",
           "scrapBasedShare": "",
-          "postConsumerScrapBasedShare": ""
+          "postConsumerScrapBasedShare": "",
           "geographyCountrySubdivision": "",
           "geographyCountry": "",
           "geographyRegionOrSubregion": ""
