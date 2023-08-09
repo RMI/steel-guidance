@@ -21,8 +21,7 @@
         "geographyRegionOrSubregion": {"type": "number"}
       },
       "required": ["benchmarkingGhgEmissions","creditGhgEmissions","scrapBasedShare "]
-      }
-    },
+      },
     "fullBoundary": {
       "type": "object",
       "properties": {
