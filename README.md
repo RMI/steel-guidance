@@ -4,26 +4,24 @@ This repository holds RMI's Steel Emissions Reporting Guidance, along with licen
 RMI's Steel Emissions Reporting Guidance consists of accounting guidance, in the form of PDF file, as well as a Pathfinder Network Data Model Extension The accounting guidance was launched in September of 2022--you can read the blog post [here](https://rmi.org/knowing-the-emissions-of-your-steel-supply-chain/) and press release [here](https://rmi.org/press-release/rmi-releases-guidance-to-cut-steel-industrys-climate-threat/).
 
 ## Product Level Accounting Guidance
-The accounting guidance can be found [here:](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)
+RMI's Steel GHG Emissions Reporting Guidance can be found [here:](https://rmi.org/wp-content/uploads/2022/09/steel_emissions_reporting_guidance.pdf)
 
 This guidance was authored by [RMI](https://rmi.org/) in collaboration with the [World Business Council for Sustainable Development (WBCSD)](https://www.wbcsd.org/) and its [Automotive Partnership for Carbon Transparency (A-PACT)](https://www.wbcsd.org/Pathways/Transport-Mobility/News/Leading-manufacturers-support-move-towards-better-emissions-measurement-for-the-automotive-industry) initiative.
 
-### Emissions Reporting Requirements
+### Key Principles
 There are four key requirements for reporting steel sector emissions using this Steel Emissions Reporting Guidance:
 
-#### 1. Product level
-Emissions must be reported at the product level for an individual site.
+#### 1. Use of primary data
+As much as possible, emissions calculations should be based on first-hand information from
+actors in the supply chain.
 
-#### 2. Fixed boundary
-All emissions from a set of processes must be reported irrespective of whether the company has
-ownership or control of these processes.
+#### 2. Create a boundary for comparison
+Companies should report emissions against a fixed boundary (i.e., a consistent
+set of processes) to enable comparability between disclosures.
 
-#### 3. Supply chain transparency
-Additional context about the scrap-based inputs, total carbon emissions intensity position relative to the 1.5C trajectory and abatement technology (refer to section 2.4 of the [accounting guidance](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)) to assist in understanding the overall emissions footprint.
-
-#### 4. Data source
-Emissions disclosures must include the fraction of the emissions footprint that is based on primary
-data (refer to section 3.5)20 and separately report any emissions credits.
+#### 3. Measurement made for markets
+Ensure calculation and reporting decisions provide the transparency necessary to
+enable the development of a market for low-embodied-emissions products.
 
 ### Fixed System Boundary
 The fixed system boundary defines all the process steps from which emissions need to be reported irrespective of the steel companies’ ownership structure. This approach solves two key issues:
@@ -42,32 +40,23 @@ The Pathfinder Data Model is designed to enable the use of machine-readable shar
 Some key terms for understanding the data model extension:
 
 #### Abatement Technology
-  A qualitative label of the techology used to reduce emissions in the steel supply chain. For more information please refer to section 2.4 of the [accounting guidance.](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)
-  
-#### Credits
-  Avoided emissions outside the fixed systems boundary. Credits are required to be seperately reported from the total emissions intensity.
-  
-#### Process Names
-  Discrete processes used in the production of steel. E.g. hot rolling, briquetting, casting. For more information see Sec 2.2 Fixed Boundary of RMI's [Steel Emissions Reporting Guidance.](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)
+  A qualitative label of the techology used to reduce emissions in the steel and aluminum supply chains. For more information, please refer to the Sec 3.4 [Abatement Technology] section of RMI's [Steel GHG Emissions Reporting Guidance](https://rmi.org/wp-content/uploads/2022/09/steel_emissions_reporting_guidance.pdf)
 
-#### Process Steps
-  A grouping of Process Names along with their total emissions intensity, recycled content, exports, credits, and other related metadata. See [4.6. Data Type ProcessSteps](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#46-data-type-processsteps).
-
-#### Process Groups
-  A grouping of Process Steps along with company information. See [4.4. Data Type ProcessGroups](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#44-data-type-processgroups).
+#### Benchmarking
+  Emissions associated with all relevant processes to either crude steel or hot-rolled product. For more information see Sec 2.3 of RMI's [Steel GHG Emissions Reportings Guidance.](https://rmi.org/wp-content/uploads/2022/09/steel_emissions_reporting_guidance.pdf)
+  
+#### Full Boundary
+  Emissions associated with all relevant processes from cradle to gate. For more information see Sec 2.2 Fixed System Boundary of RMI's [Steel GHG Emissions Reportings Guidance.](https://rmi.org/wp-content/uploads/2022/09/steel_emissions_reporting_guidance.pdf)
 
 ### Techical Guidance
-For full techical guidance on RMI's Steel Data Model Extension, see [here.](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md)
+For full techical guidance on RMI's Steel Data Model Extension, see [here.](https://github.com/RMI/steel-guidance/blob/main/specs/technical_specification.md)
 
 ### Sample and Schema Files
-A sample file of the data model extension can be found [here.](https://github.com/RMI/steel-guidance/blob/main/steel_extension_sample.json) Note: this sample file includes the full Pathfinder Data Model file as well as RMI's Steel Extension.
+A sample file of the data model extension can be found [here.](https://github.com/RMI/steel-guidance/blob/main/samples/steel_sample.json) Note: this sample file includes the full Pathfinder Data Model file as well as RMI's Steel Extension.
 
-A json schema file for the data model extension can be found [here.](https://github.com/RMI/steel-guidance/blob/main/steel_json_schema.json)
+A json schema file for the data model extension can be found [here.](https://github.com/RMI/steel-guidance/blob/main/specs/steel_schema.json)
 
 ## Contacts
 
 ### RMI
-Lachlan Wright (lwright@rmi.org)<br>
-Xiyuan Liu (xliu@rmi.org)<br>
-Iris Wu (iwu@rmi.org)<br>
-Sravan Chalasani (schalasani@rmi.org)
+For questions please contact ghgtransparency@rmi.org
