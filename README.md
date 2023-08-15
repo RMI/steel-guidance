@@ -29,7 +29,7 @@ The fixed system boundary defines all the process steps from which emissions nee
 #### Emissions disclosure at the corporate level will vary depending on the degree of vertical integration
 #### Scope 1, 2, and 3 will likely become more fluid overtime, further limiting comparability
 
-For more information on the Fixed System Boundary, see section 2.2 of the [accounting guidance](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)
+For more information on the Fixed System Boundary, see section 2.2 of the [accounting guidance](https://rmi.org/wp-content/uploads/2022/09/steel_emissions_reporting_guidance.pdf)
 
 ## Pathfinder Network Data Model Extension
 In addition to the Product Level Accounting Guidance, this repository contains supporting documents for a [Pathfinder Network](https://www.carbon-transparency.com/) Data Model Extension for Steel, which is designed to be used in concert with RMI's Steel Emissions Reporting Guidance.
