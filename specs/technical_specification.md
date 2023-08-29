@@ -26,7 +26,7 @@ For conformance with the Pathfinder Network, please refer to the [Conformance](h
 ## 4. Data Model Extension
 This section specifices a [data model extension](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-datamodelextension) for steel product footprints conforming with the [Pathfinder Network.](https://wbcsd.github.io/data-exchange-protocol/v2/#pathfinder-network)
 
-The data model extension contains additional information for steel products, beyond what is specified in the [Pathfinder Data Model.](https://wbcsd.github.io/data-exchange-protocol/v2/#data-model)
+The data model extension contains additional information for aluminum products, beyond what is specified in the [Pathfinder Data Model.](https://wbcsd.github.io/data-exchange-protocol/v2/#data-model)
 
 The data model extension consists of the following:
 
@@ -36,10 +36,9 @@ The data model extension consists of the following:
 
 ### 4.1. Data Type: AbatementTechnology
 AbatementTechnology is the enumeration of low-carbon or abatement technologies used in the steel production process.
-Valid values are:
 
 #### 4.1.1. JSON Representation
-Each AbatementTechnology MUST be encoded as a JSON string.
+Each AbatementTechnology must be represented as a string 
 
 ### 4.2. Data Type: BenchmarkingFootprint
 Contains information related to the benchmarking boundary.
@@ -51,7 +50,7 @@ The properties of a BenchmarkingFootprint are listed in the table below.
 |----------------------------------------|-----------|---------|---------------------------------------------------------------------------------------------------------------------------------------|
 | referencePeriodStart                   | date-time | O       | Start date-time for the full boundary footprint calculation                                                                           |
 | referencePeriodEnd                     | date-time | O       | End date-time for the full boundary footprint calculation                                                                             |
-| productDescription                     | String    | M       | The free-form description of the product plus other<br>information related to it such as production technology or packaging           |
+| productDescription                     | String    | O       | The free-form description of the product plus other<br>information related to it such as production technology or packaging           |
 | productAmount                          | Number    | O       | The unit of analysis of the product                                                                                                   |
 | productDeclaredUnit                    | String    | O       | The amount of productDeclaredUnits contained within the product                                                                       |
 | benchmarkingGhgEmissions               | Number    | M       | The overall emissions footprint for the aluminum product as per the<br>full reporting boundary, in ton CO2e per ton of aluminum semis |
@@ -59,7 +58,7 @@ The properties of a BenchmarkingFootprint are listed in the table below.
 | scrapBasedShare:<br>Percent            | Number    | M       | The percentage of scrap used in the production of the product                                                                         |
 | postConsumerscrapBasedShare:<br>Percent| Number    | O       | The percentage of post-consumer scrap used in the production of the product                                                           |
 | geographyCountrySubdivision            | String    | O       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                         |
-| geographyCountry:<br>_ISO3166CC_       | String    | M       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                         |
+| geographyCountry:<br>_ISO3166CC_       | String    | O       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                         |
 | geographyRegionOrSubregion             | String    | O       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                         |
 
 ### 4.3. Data Type: FullBoundary
@@ -70,12 +69,13 @@ The properties of a FullBoundary are listed in the table below.
 
 | **Property**                     | **Type**  | **Req** | **Specification**                                                                                                                     |
 |----------------------------------|-----------|---------|---------------------------------------------------------------------------------------------------------------------------------------|
-| referencePeriodStart             | date-time | M       | Start date-time for the full boundary footprint calculation                                                                           |
-| referencePeriodEnd               | date-time | M       | End date-time for the full boundary footprint calculation                                                                             |
-| productDescription               | String    | M       | The free-form description of the product plus other<br>information related to it such as production technology or packaging.          |
-| productAmount                    | Number    | M       | The unit of analysis of the product                                                                                                   |
-| productDeclaredUnit              | String    | M       | The amount of productDeclaredUnits contained within the product                                                                       |
+| referencePeriodStart             | date-time | O       | Start date-time for the full boundary footprint calculation                                                                           |
+| referencePeriodEnd               | date-time | O       | End date-time for the full boundary footprint calculation                                                                             |
+| productDescription               | String    | O       | The free-form description of the product plus other<br>information related to it such as production technology or packaging.          |
+| productAmount                    | Number    | O       | The unit of analysis of the product                                                                                                   |
+| productDeclaredUnit              | String    | O       | The amount of productDeclaredUnits contained within the product                                                                       |
 | fullBoundaryGhgEmissions         | Number    | M       | The overall emissions footprint for the aluminum product as per the<br>full reporting boundary, in ton CO2e per ton of aluminum semis |
 | geographyCountrySubdivision      | String    | O       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                         |
-| geographyCountry:<br>_ISO3166CC_ | String    | M       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                         |
+| geographyCountry:<br>_ISO3166CC_ | String    | O       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                         |
 | geographyRegionOrSubregion       | String    | O       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                         |
+

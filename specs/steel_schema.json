@@ -20,7 +20,7 @@
         "geographyCountry": {"type": "string"},
         "geographyRegionOrSubregion": {"type": "number"}
       },
-      "required": ["benchmarkingGhgEmissions","creditGhgEmissions","scrapBasedShare "]
+      "required": ["benchmarkingGhgEmissions","scrapBasedShare "]
       },
     "fullBoundary": {
       "type": "object",
@@ -51,5 +51,5 @@
       }
        
   },
-  "required": ["abatementTechnology","benchmarkingFootprint"]
+  "required": ["benchmarkingFootprint","fullBoundary"]
 }
