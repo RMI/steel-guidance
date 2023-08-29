@@ -1,5 +1,5 @@
 # Technical Specifications for RMI Aluminum PCF Data Exchange
-## Updated 15 August 2023
+## Updated 29 August 2023
 
 -------------------------
 ## 1. Introduction
