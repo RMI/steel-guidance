@@ -38,7 +38,7 @@ The data model extension consists of the following:
 AbatementTechnology is the enumeration of low-carbon or abatement technologies used in the steel production process.
 
 #### 4.1.1. JSON Representation
-Each AbatementTechnology must be represented as a string 
+Each AbatementTechnology must be represented as a string.
 
 ### 4.2. Data Type: BenchmarkingFootprint
 Contains information related to the benchmarking boundary.
