@@ -64,9 +64,9 @@ RMI's Steel Data Model is comprised of the following properties:
 For the full techical specification of RMI's Steel Data Model, see [here.](https://github.com/RMI/steel-guidance/blob/main/specs/technical_specification.md)
 
 #### Sample and Schema Files
-A sample file of the data model extension can be found [here.](https://github.com/RMI/steel-guidance/blob/main/samples/steel_sample.json) Note: this sample file includes the full Pathfinder Data Model file as well as RMI's Steel Extension.
+A sample file of the data model can be found [here.](https://github.com/RMI/steel-guidance/blob/main/samples/steel_sample.json) Note: this sample file includes the full Pathfinder Data Model file as well as RMI's Steel Data Model.
 
-A json schema file for the data model extension can be found [here.](https://github.com/RMI/steel-guidance/blob/main/specs/steel_schema.json)
+A json schema file for the data model can be found [here.](https://github.com/RMI/steel-guidance/blob/main/specs/steel_schema.json)
 
 ## Contacts
 
