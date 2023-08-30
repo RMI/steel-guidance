@@ -1,12 +1,12 @@
 # RMI Steel GHG Emissions Reporting Guidance
-This repository holds the necessary tools and guidance for exchanging emissions data in line with RMI's Steel GHG Emissions Reporting Guidance, along with licensing and sample files. 
+This repository holds the necessary tools and guidance for exchanging emissions data in line with RMI's Steel GHG Emissions Reporting Guidance, along with licensing and sample files.
 
 The guidance was launched in September of 2022--you can read the blog post [here](https://rmi.org/knowing-the-emissions-of-your-steel-supply-chain/) and press release [here](https://rmi.org/press-release/rmi-releases-guidance-to-cut-steel-industrys-climate-threat/).
 
 The guidance serves as a methodological foundation for RMI's Steel Data Model. Designed in concert with the guidance, the Steel Data Model encapsulated the outputs of the guidance, represented as a [Data Model Extension](https://wbcsd.github.io/data-model-extensions/spec/) to the [Pathfinder Data Model.](https://wbcsd.github.io/data-exchange-protocol/v2/#biblio-extensions-guidance)
 
 ## Product Level Accounting Guidance
-[RMI's Steel GHG Emissions Reporting Guidance](https://rmi.org/wp-content/uploads/2022/09/steel_emissions_reporting_guidance.pdf) provides a methodology for reporting emissions in a way that enables the development of a differentiated market for low-embodied-emissions steel that promotes the necessary investment to decarbonize the sector. 
+[RMI's Steel GHG Emissions Reporting Guidance](https://rmi.org/wp-content/uploads/2022/09/steel_emissions_reporting_guidance.pdf) provides a methodology for reporting emissions in a way that enables the development of a differentiated market for low-embodied-emissions steel that promotes the necessary investment to decarbonize the sector.
 
 The broad outcome of the implementation of this guidance is as follows:
 1. Accelerate the deployment of low-emissions steel production technologies by ensuring sufficient information is
@@ -43,12 +43,12 @@ The fixed system boundary defines all the process steps from which emissions nee
 
 For more information on the Fixed System Boundary, see section 2.2 of the [accounting guidance](https://rmi.org/wp-content/uploads/2022/09/steel_emissions_reporting_guidance.pdf)
 
-## RMI Steel Data Model 
+## RMI Steel Data Model
 RMI's Steel Data Model enables the use of machine-readable sharing of the product level information calculated with [RMI's Steel GHG Emissions Reporting Guidance.](https://rmi.org/wp-content/uploads/2022/09/steel_emissions_reporting_guidance.pdf)
 
 It has been designed as an extension to the [Pathfinder Data Model.](https://wbcsd.github.io/data-exchange-protocol/v2/#biblio-extensions-guidance) Extensions to the model allow for sector specific information to be added to the data model.
 
-### Properties 
+### Properties
 RMI's Steel Data Model is comprised of the following properties:
 
 #### Abatement Technology
