@@ -18,7 +18,7 @@
         "postConsumerScrapBasedShare": {"type": "number"},
         "geographyCountrySubdivision": {"type": "string"},
         "geographyCountry": {"type": "string"},
-        "geographyRegionOrSubregion": {"type": "number"}
+        "geographyRegionOrSubregion": {"type": "string"}
       },
       "required": ["benchmarkingGhgEmissions","scrapBasedShare "]
       },
@@ -33,7 +33,7 @@
         "fullBoundaryGhgEmissions": {"type": "number"},
         "geographyCountrySubdivision": {"type": "string"},
         "geographyCountry": {"type": "string"},
-        "geographyRegionOrSubregion": {"type": "number"}
+        "geographyRegionOrSubregion": {"type": "string"}
       },
       "required": ["fullBoundaryGhgEmissions"]
     }
