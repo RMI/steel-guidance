@@ -13,7 +13,6 @@
         "productDeclaredUnit": {"type": "string"},
         "productAmount": {"type": "number"},
         "benchmarkingGhgEmissions": {"type": "number"},
-        "creditGhgEmissions": {"type": "number"},
         "scrapBasedShare": {"type": "number"},
         "postConsumerScrapBasedShare": {"type": "number"},
         "geographyCountrySubdivision": {"type": "string"},
@@ -31,6 +30,7 @@
         "productDeclaredUnit": {"type": "string"},
         "productAmount": {"type": "number"},
         "fullBoundaryGhgEmissions": {"type": "number"},
+        "creditGhgEmissions": {"type": "number"},
         "geographyCountrySubdivision": {"type": "string"},
         "geographyCountry": {"type": "string"},
         "geographyRegionOrSubregion": {"type": "string"}
