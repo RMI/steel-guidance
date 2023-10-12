@@ -63,7 +63,6 @@
           "productAmount": "",
           "productDeclaredUnit": "",
           "benchmarkingGhgEmissions": "",
-          "creditGhgEmissions": "",
           "scrapBasedShare": "",
           "postConsumerScrapBasedShare": "",
           "geographyCountrySubdivision": "",
@@ -78,6 +77,7 @@
           "productAmount": "",
           "productDeclaredUnit": "",
           "fullBoundaryGhgEmissions": "",
+          "creditGhgEmissions": "",
           "geographyCountrySubdivision": "",
           "geographyCountry": "",
           "geographyRegionOrSubregion": ""
