@@ -54,7 +54,6 @@ The properties of a BenchmarkingFootprint are listed in the table below.
 | productAmount                          | Number    | O       | The unit of analysis of the product                                                                                                   |
 | productDeclaredUnit                    | String    | O       | The amount of productDeclaredUnits contained within the product                                                                       |
 | benchmarkingGhgEmissions               | Number    | M       | The overall emissions footprint for the aluminum product as per the<br>full reporting boundary, in ton CO2e per ton of aluminum semis |
-| creditGhgEmissions                     | Number    | O       | Emissions associated with exported intermediate products                                                                              |
 | scrapBasedShare:<br>Percent            | Number    | M       | The percentage of scrap used in the production of the product                                                                         |
 | postConsumerscrapBasedShare:<br>Percent| Number    | O       | The percentage of post-consumer scrap used in the production of the product                                                           |
 | geographyCountrySubdivision            | String    | O       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                         |
@@ -75,6 +74,7 @@ The properties of a FullBoundary are listed in the table below.
 | productAmount                    | Number    | O       | The unit of analysis of the product                                                                                                   |
 | productDeclaredUnit              | String    | O       | The amount of productDeclaredUnits contained within the product                                                                       |
 | fullBoundaryGhgEmissions         | Number    | M       | The overall emissions footprint for the aluminum product as per the<br>full reporting boundary, in ton CO2e per ton of aluminum semis |
+| creditGhgEmissions               | Number    | O       | Emissions associated with exported intermediate products                                                                              |
 | geographyCountrySubdivision      | String    | O       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                         |
 | geographyCountry:<br>_ISO3166CC_ | String    | O       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                         |
 | geographyRegionOrSubregion       | String    | O       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                         |
