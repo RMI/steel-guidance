@@ -3,7 +3,7 @@
 
 -------------------------
 ## 1. Introduction
-This document contains the necessary technical foundation for an aluminum data model extension to the [Pathfinder Network,](https://wbcsd.github.io/data-exchange-protocol/v2/#pathfinder-network) developed by [RMI.](https://rmi.org/) For full documentation of the Pathfinder Network, refer to the link above.
+This document contains the necessary technical foundation for a steel data model extension to the [Pathfinder Network,](https://wbcsd.github.io/data-exchange-protocol/v2/#pathfinder-network) developed by [RMI.](https://rmi.org/) For full documentation of the Pathfinder Network, refer to the link above.
 
 The goal of this document is to enable the interoperable exchange of steel Product Carbon Footprints, in accordance with the RMI's
 [Steel GHG Emissions Reporting Guidance](https://rmi.org/wp-content/uploads/2022/09/steel_emissions_reporting_guidance.pdf)
